@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Download Notice</title>
+    <link rel="icon" type="image/x-icon" href="js/images/warning.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e2024 0%, #17181c 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .notice-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        h1 {
+            color: #ff4444;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #45a049;
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background: #45a049;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="notice-container">
+        <h1>⚠️ YouTube Download Notice</h1>
+        <p>Downloading videos from YouTube is against their Terms of Service. We cannot provide this functionality as it would violate YouTube's terms.</p>
+        <p>Please refer to YouTube's Terms of Service for more information:</p>
+        <p><a href="https://www.youtube.com/static?template=terms" target="_blank">YouTube Terms of Service</a></p>
+        <p>Instead, we recommend:</p>
+        <ul>
+            <li>Using YouTube's official features to save videos for offline viewing</li>
+            <li>Supporting content creators through official channels</li>
+            <li>Subscribing to YouTube Premium for offline playback</li>
+        </ul>
+        <a href="index.html" class="back-button">Go Back</a>
+    </div>
+</body>
+</html>
