@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Preview Site Demo](./images/preview.png "Desktop Demo")
+![Preview Site Demo](./images/preview2.png "Desktop Demo")
 
 ### Prerequisites
 
