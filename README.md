@@ -4,7 +4,7 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/r3dc0dez/music_player_website)
   ![GitHub stars](https://img.shields.io/github/stars/r3dc0dez/music_player_website?style=social)
   ![GitHub forks](https://img.shields.io/github/forks/r3dc0dez/music_player_website?style=social)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/x8nzZeXhA9o?style=social)](https://youtu.be/x8nzZeXhA9o)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/bZ-7WdMJLvA?style=social)](https://youtu.be/bZ-7WdMJLvA)
 
   <br />
   <br />
