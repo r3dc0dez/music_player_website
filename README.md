@@ -9,9 +9,9 @@
   <br />
   <br />
 
-  <h2 align="center">Grilli - Restaurant Website</h2>
+  <h2 align="center">MPWA - Music Player App</h2>
 
-  Grilli is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  MPWA is a fully responsive Music Player website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
   <a href="https://music-player-website-iota.vercel.app" target="_blank"><strong>➥ Live Demo</strong></a>
 
