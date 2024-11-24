@@ -9,7 +9,83 @@
     <link rel="icon" type="image/x-icon" href="js/images/pom.gif">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="music-player">
+            <h1>Music Player</h1>
+
+            <div class="input-section">
+                <div class="youtube-input">
+                    <input type="text" id="youtubeInput" placeholder="Enter Youtube URL or Playlist URL">
+                    <button id="loadYoutube">Load</button>
+                </div>
+
+                <div class="local-input">
+                    <input type="file" id="localFile" accept="audio/*,video/*">
+                    <label for="localFile">Choose local audio/video file</label>
+                </div>
+            </div>
+
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <div class="player-container">
+                <div class="media-container">
+                    <div id="youtubePlayer"></div>
+                    <div id="localPlayer" class="hidden">
+                        <div class="song-info">
+                            <img id="songCover" src="js/images/cover.jpg" alt="Album Cover" class="hidden">
+                            <video id="videoPlayer" class="hidden">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-details">
+                            <div id="videoTitle" class="video-title hidden"></div>
+                            <div class="song-details">
+                                <h2 id="songTitle">No track selected</h2>
+                                <p id="songArtist">Unknown Artist</p>
+                            </div>
+                        </div>
+                        <audio id="audioPlayer"></audio>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="progress-container">
+                        <span id="currentTime">0:00</span>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span id="duration">0:00</span>
+                    </div>
+                    <div class="buttons">
+                        <button id="prevBtn" class="control-btn"><i class="fas fa-backward"></i></button>
+                        <button id="playBtn" class="control-btn"><i class="fas fa-play"></i></button>
+                        <button id="nextBtn" class="control-btn"><i class="fas fa-forward"></i></button>
+                        <div class="volume-container">
+                            <i class="fas fa-volume-up volume-icon"></i>
+                            <div class="volume-slider-container">
+                                <div class="volume-slider-progress"></div>
+                            </div>
+                        </div>
+                        <button id="fullscreenBtn" class="control-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="history-container">
+                <div class="history-header">
+                    <h2>History</h2>
+                    <button id="clearHistory" class="control-btn" onclick="location.reload()" title="Clear History">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+                <div id="history"></div>
+                <div class="empty-history">
+                    No playback history yet
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="js/script.js"></script>
 </body>
