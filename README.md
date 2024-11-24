@@ -14,7 +14,7 @@
   MPWA is a fully responsive Music Player website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
   <a href="https://music-player-website-iota.vercel.app" target="_blank"><strong>➥ Live Demo</strong></a>
-  Youtube doesnt work on live demo, for youtube function, download the app.
+  <p align="center">Youtube doesnt work on live demo, for youtube function, download the app.<p>
 
 </div>
 
